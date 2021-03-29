@@ -28,6 +28,8 @@ YOu first must install Node.js. Then you must install inquirer.
 
 To use this project, you must first start it from your console with the command "Node index.js". From there you just need to follow the prompts.
 
+[Example Video](https://drive.google.com/file/d/1eqFncnL006d0_RxckytuFPH6lzxNQ5TM/preview)
+
 ## Credits
 
 https://www.npmjs.com/package//inquirer#questions, https://nodejs.org/dist/latest-v14.x/docs/api/, https://shields.io/category/license
@@ -35,7 +37,6 @@ https://www.npmjs.com/package//inquirer#questions, https://nodejs.org/dist/lates
 
 ## License
 
-MIT
 
 
 ## Questions
