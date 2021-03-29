@@ -21,7 +21,7 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-YOu first must install Node.js. Then you must install inquirer. 
+You first must install Node.js. Then you must install inquirer. 
 
 
 ## Usage 
