@@ -58,6 +58,11 @@ const questions = [
         message: 'What is your email?',
         name: 'email',
     },
+    {
+        type: 'input',
+        message: `If you have any credits please provide URL's to them`,
+        name: 'credits',
+    },
 ];
 
 // TODO: Create a function to write README file

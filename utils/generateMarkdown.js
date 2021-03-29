@@ -1,22 +1,12 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+# ${data.title}
 
-  ![${data.license}](https://img.shields.io/static/v1?label=license&message=${data.license}&color=${data.licenseColor})
+![${data.license}](https://img.shields.io/static/v1?label=license&message=${data.license}&color=${data.licenseColor})
 
-  ## Description 
+## Description 
 
 ${data.desc}
 
@@ -42,11 +32,7 @@ ${data.usage}
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+${data.credits}
 
 
 ## License
@@ -54,9 +40,11 @@ If you followed tutorials, include links to those here as well.
 ${data.license}
 
 
-## Features
+## Questions
 
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+You can find me on Github here: [${data.github}](https://github.com/${data.github}?tab=repositories)
+
+You can also reach me via email: ${data.email}
 
 ## Contributing
 
@@ -64,8 +52,9 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-  `;
+${data.test}
+
+`;
   
 }
 
