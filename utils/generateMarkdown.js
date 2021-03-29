@@ -18,7 +18,7 @@ function generateMarkdown(data) {
 ${data.desc}
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
@@ -30,7 +30,7 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+${data.install}
 
 
 ## Usage 

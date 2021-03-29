@@ -23,6 +23,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Please provide instructions and examples for use. ',
+        name: 'usage',
+    },
+    {
+        type: 'input',
         message: 'Do you have any guidelines for future contributors to follow?',
         name: 'contributors',
     },
