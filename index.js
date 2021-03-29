@@ -46,7 +46,7 @@ const questions = [
         type: 'list',
         message: 'What color do you want your badge to be?',
         name: 'licenseColor',
-        choices: ['Blue', 'Red', 'Green', 'Yellow', 'Orange'],
+        choices: ['blue', 'red', 'green', 'yellow', 'orange'],
     },
     {
         type: 'input',
